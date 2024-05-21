@@ -1,0 +1,172 @@
+.HeroSection{
+    background-image: url('https://preview.colorlib.com/theme/course/images/slider_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 2500px;
+    width: 100%;
+    min-height: 600px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+    .Herosection_container{
+         max-width: 800px;
+         min-height: 70px;
+         .Herosection_div{
+            height: 70px;
+            color: white;
+            font-weight: 700;
+            font-size: 32px;
+            .Herosection_span{
+                height: 70px;
+                background-color: #FFB606;
+                font-weight: 700px;
+                font-size: 32px;
+            }
+         }
+    }
+}
+.Middlesection{
+         max-width: 2500px;
+         min-height: 300px;
+         display: flex;
+         justify-content: center;
+         margin-top: 100px;
+         
+         .Middlesection_line{
+            width: 150px;
+            height: 4px;
+            background-color: #FFB606;
+            display: flex;
+            justify-content: center;
+         }
+         .Middlesection_text{
+            display: flex;
+            font-size: 32px;
+            justify-content: center;
+         }
+    .Card_container{
+        max-width: 2500px;
+        min-height: 300px;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        .Card_div{
+            gap: 30px;
+            max-width: 1000px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 100px;
+            .Card{
+                max-width: 300px;
+                min-height: 300px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: #F8F9Fb;
+                .icon{
+                position: absolute;
+                    margin-top: 20px;
+                    margin-left: 10px;
+                    display: flex;
+                    justify-content: start;
+                }
+                .fa-heart{
+                    color: red;
+                }
+                .img1{
+                    max-width: 300px;
+                    height: 300px;
+                }
+                .Card_text1{
+                    margin-top: 45px;
+                   max-width: 300px;
+                   min-height: 60px;
+                  
+                   .name{
+                    font-size: 20px;
+                    margin-bottom: 12px;
+                   }
+                   .des{
+                    color: #A5A5A5;
+                    font-size: 16px;
+                   }
+                }
+                .addbtn{
+                    width: 100px;
+                    height: 20px;
+                    background-color: blue;
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                }
+                .Card1{
+                    margin-top: 100px;
+                    max-width: 300px;
+                    min-height: 100px;
+                    display: flex;
+                    align-items: center;
+                    .Card_div{
+                        max-width:250px ;
+                        height: 100px;
+                        display: flex;
+                        padding: 10px;
+                        align-items: center;
+                        .Card_div_img1{
+                            height: 60px;
+                            width: 60px;
+                            border-radius: 50%;
+                        }
+                        .Name{
+                             font-size: 12px;
+                             .positions{
+                                color: gray;
+                             }
+                        }
+                    }
+                    .price_div{
+                        background-color: #FFB606;
+                        width: 70px;
+                        height: 70px;
+                        font-size: 12px;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.Thirdsection{
+    max-width: 2500px;
+    min-height: 200px;
+    margin-top: 100px;
+    .Thirdsection_container{
+        
+        background-color: #FFB606;
+        max-width: 1100px;
+        min-height: 200px;
+        .Thirdsection_div1{
+            max-width: 800px;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             flex-direction: column;
+             .Thirdsection_div1_1{
+                max-width: 700px;
+                justify-content: center;
+                min-height: 100px;
+                align-items: center;
+             }
+            .Thirdsection_div1_2{
+                max-width: 700px;
+                justify-content: center;
+                min-height: 100px;
+                align-items: center;
+                color: white;
+             }
+         }
+    }
+}
